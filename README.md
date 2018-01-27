@@ -1,2 +1,2 @@
 # project_thincle_students
-Students project
+collabarated project
