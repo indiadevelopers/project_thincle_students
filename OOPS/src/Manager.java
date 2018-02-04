@@ -9,4 +9,9 @@ public class Manager extends Employee {
 		
 		System.out.println("Manager is working...");
 	}
+	
+	public void manage() {
+		
+		System.out.println("manager is managing the project");
+	}
 }

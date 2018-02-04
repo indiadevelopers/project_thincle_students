@@ -1,30 +1,28 @@
 
 public class EmployeeManagementApplication {
 
-	
 	public static void main(String[] args) {
 		
-		Employee e = new Employee(101);
+		Tax incomeTax = new Tax();
+
+		Employee e = null;
 		
-		e.work();
+		e = new Employee();
 		
-		Manager m = new Manager();
+		incomeTax.calculateTax(e);
 		
+		e = new Manager();
 		
-		m.work();
-		
-		Engineer ee = new Engineer();
-		
-		ee.work();
-		
-		SoftwareEngineer sw = new SoftwareEngineer();
-		
-		sw.work();
-		
-				
+		incomeTax.calculateTax(e);
 		
 		
+		e = new Engineer();
 		
+		incomeTax.calculateTax(e);
+		
+		e = new SoftwareEngineer();
+		
+		incomeTax.calculateTax(e);
 		
 		
 		

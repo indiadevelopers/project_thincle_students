@@ -11,4 +11,9 @@ public class Engineer extends Employee {
 		
 	}
 
+	public void doDesign() {
+		
+		System.out.println("doing the design");
+	}
+	
 }
